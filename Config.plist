@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Actions</key>
+        <array>
+            <dict>
+                <key>After</key>
+                <string>paste-result</string>
+                <key>Image File</key>
+                <string>encode.png</string>
+                <key>Script Interpreter</key>
+                <string>/usr/bin/python</string>
+                <key>Shell Script File</key>
+                <string>unicodeencode.py</string>
+                <key>Title</key>
+                <string>Unicode Encode</string>
+            </dict>
+            <dict>
+                <key>After</key>
+                <string>paste-result</string>
+                <key>Image File</key>
+                <string>decode.png</string>
+                <key>Script Interpreter</key>
+                <string>/usr/bin/python</string>
+                <key>Shell Script File</key>
+                <string>unicodedecode.py</string>
+                <key>Title</key>
+                <string>Unicode Decode</string>
+            </dict>
+        </array>
+        <key>Credits</key>
+        <array>
+            <dict>
+                <key>Link</key>
+                <string>https://github.com/pktangyue/UnicodeEncode.popclipext</string>
+                <key>Name</key>
+                <string>pktangyue</string>
+            </dict>
+        </array>
+        <key>Extension Description</key>
+        <string>Unicode Encode/Decode the selected text.</string>
+        <key>Extension Identifier</key>
+        <string>com.pktangyue.popclip.extension.unicodeencode</string>
+        <key>Extension Name</key>
+        <string>Unicode Encode</string>
+        <key>Required Apps</key>
+        <integer>701</integer>
+    </dict>
+</plist>
